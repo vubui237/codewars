@@ -1,0 +1,1 @@
+smartSum = (...kitkats) => kitkats.toString().split(',').map((x)=>parseInt(x)).reduce((t,a)=>t+=a)
